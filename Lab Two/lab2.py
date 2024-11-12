@@ -68,7 +68,7 @@ def handle_outliers(data,feature):
 
 
 def clean_numeric_column(data, column):
-    data[column] = data[column].replace('[^\d]', '', regex=True)  # Remove non-numeric characters
+    data[column] = data[column].replace('[^\\d]', '', regex=True)  # Escape the backslash
     data[column] = pd.to_numeric(data[column], errors='coerce')  # Convert to numeric, setting errors to NaN
     return data
 
