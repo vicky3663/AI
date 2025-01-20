@@ -1,0 +1,13 @@
+
+numpy
+pandas
+scikit-learn
+opencv-python
+matplotlib
+hdbscan
+
+### Install Dependencies
+Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```

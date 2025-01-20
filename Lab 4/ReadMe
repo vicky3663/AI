@@ -1,0 +1,83 @@
+# Advanced Facial Recognition Clustering with HDBSCAN
+
+## Project Overview
+This project explores advanced facial recognition clustering using the HDBSCAN algorithm. It provides hands-on experience with unsupervised learning techniques for clustering facial data and tackling challenges like noise and unbalanced datasets.
+
+### Objectives
+1. Implement unsupervised clustering for facial recognition.
+2. Handle noisy and unbalanced datasets effectively.
+3. Visualize and evaluate clustering results.
+
+### Key Features
+- Dataset preprocessing and standardization.
+- Dimensionality reduction using PCA (Principal Component Analysis is an unsupervised learning technique that reduces the complexity of high-dimensional data while retaining important information).
+- Clustering using HDBSCAN.
+- Handling real-world challenges such as noise.
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+- Python 3.7 or later.
+- `pip` package manager.
+
+### Install Dependencies
+Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Usage Instructions
+
+### Dataset Preparation
+1. Download the LFW dataset from [this link](http://vis-www.cs.umass.edu/lfw/lfw.tgz).
+2. Extract the dataset and place it in the project folder.
+3. Update the `load_dataset` function in the script with the dataset path.
+
+### Running the Project
+Run the clustering script:
+```bash
+python clustering_script.py
+```
+
+---
+
+## Key Steps in the Pipeline
+
+### 1. Data Loading
+Load facial images and extract relevant features.
+
+### 2. Preprocessing
+Flatten and standardize the dataset for better model performance.
+
+### 3. Dimensionality Reduction
+Reduce dimensions using PCA to retain significant variance while minimizing noise.
+
+### 4. Clustering
+Apply HDBSCAN to identify meaningful clusters and noise points.
+
+### 5. Evaluation
+Visualize clustering results and evaluate performance using silhouette scores.
+
+---
+
+## Expected Outcomes
+- Clustering of facial data into meaningful groups.
+- Identification and handling of noisy or outlier data.
+- Visual and quantitative evaluation of clustering performance.
+
+---
+
+## Troubleshooting
+- Ensure all dependencies are installed correctly.
+- Check the dataset path in the script if you encounter a FileNotFound error.
+- Update library versions in `requirements.txt` if compatibility issues arise.
+
+---
+
+## License
+This project is licensed under the MIT License.
+
