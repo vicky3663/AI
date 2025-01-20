@@ -1,0 +1,14 @@
+# General Python Libraries
+numpy
+pandas
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning and Neural Networks
+scikit-learn
+tensorflow
+
+# Data Handling and Preprocessing
+scipy
